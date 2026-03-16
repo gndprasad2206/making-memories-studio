@@ -1,65 +1,34 @@
-import Image from "next/image";
+import About from "@/sections/About";
+import Contact from "@/sections/Contact";
+import Hero from "@/sections/Hero";
+import Portfolio from "@/sections/Portfolio";
+import Services from "@/sections/Services";
+import Testimonials from "@/sections/Testimonials";
+import WhyChooseUs from "@/sections/WhyChooseUs";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <>
+      <Hero />
+      <About />
+      <Services />
+      <Portfolio />
+      <WhyChooseUs />
+      <Testimonials />
+      <Contact />
+      
+      {/* Floating WhatsApp Button */}
+      <a
+        href="https://wa.me/918367262022"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 lg:bottom-10 lg:right-10 w-14 h-14 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-lg hover:shadow-xl hover:scale-110 transition-all z-50 text-[32px] font-bold"
+        aria-label="WhatsApp Contact"
+      >
+        <svg fill="currentColor" viewBox="0 0 24 24" className="w-8 h-8">
+          <path d="M12.031 2.015A9.973 9.973 0 0 0 2.022 12c0 1.95.534 3.84 1.55 5.5l-2.022 6.5 6.643-1.74a10.038 10.038 0 0 0 3.838.74h.01a10.021 10.021 0 0 0 9.973-9.985c.01-4.89-3.794-8.98-8.682-9.98a10.05 10.05 0 0 0-1.302-.02zm.01 1.74h.005c4.116 0 7.458 3.33 7.458 7.456C19.504 15.33 16.17 18.66 12 18.66c-1.55 0-3.078-.396-4.42-1.144l-.316-.184-3.21.84.86-3.15-.205-.33A7.51 7.51 0 0 1 3.515 12c0-4.115 3.35-7.46 7.47-7.46.35 0 .706.035 1.056.105zM8.514 7.733c-.205-.015-.465.01-.735.09a1.64 1.64 0 0 0-1.01.99c-.19.46-.385 1.34.8 2.82 1.18 1.48 2.65 3.35 5.25 4.3 1.43.52 2.53.64 3.42.54.91-.11 1.63-.56 2.03-1.07.41-.5.41-.95.27-1.06-.14-.11-.53-.18-1.12-.48-.59-.3-3.48-1.72-4.02-1.91-.53-.19-.92-.28-1.3.28-.39.56-1.52 1.91-1.86 2.3-.35.39-.7.44-1.29.14-.59-.29-2.48-.91-4.73-2.92-.12-.11-.12-.22 0-.34.1-.1.22-.24.33-.36.12-.12.16-.21.24-.35.08-.14.04-.26-.02-.38-.06-.12-.58-1.42-.8-1.95-.21-.5-.43-.43-.63-.44-.19-.01-.4-.01-.6-.01z" />
+        </svg>
+      </a>
+    </>
   );
 }
