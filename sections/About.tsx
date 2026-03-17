@@ -1,7 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
 import { Users, FileImage, Video, Heart } from "lucide-react";
-import Image from "next/image";
 
 const highlights = [
   {
@@ -43,7 +42,7 @@ export default function About() {
               className="space-y-4 pt-12 z-10"
             >
               <img src="https://images.unsplash.com/photo-1533512948622-c322bca63a24?q=80&w=600&auto=format&fit=crop" alt="Photographer in action" className="rounded-3xl shadow-lg w-full h-48 md:h-64 object-cover" />
-              <img src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?q=80&w=600&auto=format&fit=crop" alt="Studio setting" className="rounded-3xl shadow-lg w-full h-40 md:h-56 object-cover" />
+              <img src="https://images.unsplash.com/photo-1596464716127-f2a82984de30?q=80&w=600&auto=format&fit=crop" alt="Studio setting" className="rounded-3xl shadow-lg w-full h-40 md:h-56 object-cover" />
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 50 }}
@@ -52,7 +51,7 @@ export default function About() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="space-y-4 z-10"
             >
-              <img src="https://images.unsplash.com/photo-1621609764121-655eebd3f91e?q=80&w=600&auto=format&fit=crop" alt="Couples photoshoot" className="rounded-3xl shadow-lg w-full h-56 md:h-80 object-cover" />
+              <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?q=80&w=600&auto=format&fit=crop" alt="Kids photoshoot" className="rounded-3xl shadow-lg w-full h-56 md:h-80 object-cover" />
               <div className="bg-cream rounded-3xl shadow-sm p-6 flex flex-col justify-center border border-rosegold/10 text-center items-center h-32 md:h-40">
                 <span className="text-3xl font-serif font-bold text-gradient">10+</span>
                 <span className="text-foreground/80 font-medium text-sm mt-1">Years of<br/>Experience</span>
@@ -73,18 +72,18 @@ export default function About() {
                 About Our Studio
               </span>
               <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground leading-tight mb-6">
-                Capturing Real Life <br />
-                <span className="text-gradient">Real Emotion</span>
+                Capturing Childhood's <br />
+                <span className="text-gradient">Purest Joy</span>
               </h2>
               <p className="text-lg text-foreground/80 leading-relaxed font-light">
-                Welcome to <strong>Making Memories Photo Studio</strong>, located in the heart of Hyderabad. We are passionate about framing the true essence of your joy. 
-                Our studio is more than just lights and cameras—it's a warm, family-oriented space where we make you feel completely at ease.
+                Welcome to <strong>Bezawada Kids Studio</strong>, located in the heart of Vijayawada. We are passionate about framing the true essence of your child's joy. 
+                Our studio is a magical, child-friendly space filled with colorful props and toys, designed to capture their natural smiles.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4">
-              {highlights.map((item, idx) => (
-                <div key={idx} className="flex flex-col gap-3 group">
+              {highlights.map((item) => (
+                <div key={item.title} className="flex flex-col gap-3 group">
                   <div className="w-14 h-14 rounded-2xl bg-cream flex items-center justify-center transform group-hover:scale-110 transition-transform shadow-sm">
                     {item.icon}
                   </div>

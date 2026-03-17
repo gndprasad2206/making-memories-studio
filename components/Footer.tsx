@@ -10,17 +10,17 @@ export default function Footer() {
           <div className="flex items-center gap-2">
             <Camera className="w-8 h-8 text-rosegold" />
             <span className="font-serif text-2xl font-bold tracking-wide">
-              Making Memories
+              Bezawada Kids Studio
             </span>
           </div>
           <p className="text-foreground/80 leading-relaxed font-light mt-2 max-w-sm">
-            Turning your special moments into beautiful memories with professional photography and video coverage.
+            Capturing the magic and wonder of childhood with professional kids photography and video coverage.
           </p>
           <div className="flex gap-4 mt-4">
             <Link href="https://instagram.com" className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-rosegold hover:bg-rosegold hover:text-white transition-all shadow-sm">
               <Instagram className="w-5 h-5" />
             </Link>
-            <Link href="https://wa.me/918367262022" className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-rosegold hover:bg-rosegold hover:text-white transition-all shadow-sm">
+            <Link href="https://wa.me/919939904488" className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-rosegold hover:bg-rosegold hover:text-white transition-all shadow-sm">
               <Phone className="w-5 h-5" />
             </Link>
           </div>
@@ -51,26 +51,26 @@ export default function Footer() {
             <li className="flex items-start gap-3">
               <MapPin className="w-5 h-5 text-rosegold shrink-0 mt-1" />
               <span>
-                Hitex Road, Ramakrishnapur,<br/>
-                Weaker Section Colony,<br/>
-                Izzathnagar, Hyderabad,<br/>
-                Telangana 500084
+                KVR Kailash Height's, 2,<br/>
+                behind SLV Amaravathi Grand Street,<br/>
+                Ramavarapadu, Vijayawada,<br/>
+                Kanuru, Andhra Pradesh 520004
               </span>
             </li>
             <li className="flex items-center gap-3">
               <Phone className="w-5 h-5 text-rosegold shrink-0" />
-              <span>08367262022</span>
+              <span>99399 04488</span>
             </li>
             <li className="flex items-center gap-3">
               <Mail className="w-5 h-5 text-rosegold shrink-0" />
-              <span>hello@makingmemories.com</span>
+              <span>hello@bezawadakidsstudio.com</span>
             </li>
           </ul>
         </div>
       </div>
       
       <div className="text-center pt-8 border-t border-rosegold/10 text-foreground/60 text-sm font-light">
-        <p>&copy; {new Date().getFullYear()} Making Memories Photo Studio. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Bezawada Kids Studio. All rights reserved.</p>
       </div>
     </footer>
   );

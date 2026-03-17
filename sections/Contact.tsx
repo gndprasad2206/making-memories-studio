@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { Phone, Mail, MapPin, Send, MessageCircle } from "lucide-react";
+import { Phone, MapPin, Send, MessageCircle } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -28,17 +28,17 @@ export default function Contact() {
             <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
-                  <label className="text-sm font-medium text-foreground/80">Full Name</label>
-                  <input type="text" placeholder="John Doe" className="w-full px-4 py-3 rounded-xl bg-cream/50 border border-rosegold/20 focus:outline-none focus:border-rosegold focus:ring-1 focus:ring-rosegold transition-all" />
+                  <label htmlFor="fullName" className="text-sm font-medium text-foreground/80">Full Name</label>
+                  <input id="fullName" type="text" placeholder="John Doe" className="w-full px-4 py-3 rounded-xl bg-cream/50 border border-rosegold/20 focus:outline-none focus:border-rosegold focus:ring-1 focus:ring-rosegold transition-all" />
                 </div>
                 <div className="space-y-2">
-                  <label className="text-sm font-medium text-foreground/80">Phone Number</label>
-                  <input type="tel" placeholder="+91 8367262022" className="w-full px-4 py-3 rounded-xl bg-cream/50 border border-rosegold/20 focus:outline-none focus:border-rosegold focus:ring-1 focus:ring-rosegold transition-all" />
+                  <label htmlFor="phoneNumber" className="text-sm font-medium text-foreground/80">Phone Number</label>
+                  <input id="phoneNumber" type="tel" placeholder="+91 99399 04488" className="w-full px-4 py-3 rounded-xl bg-cream/50 border border-rosegold/20 focus:outline-none focus:border-rosegold focus:ring-1 focus:ring-rosegold transition-all" />
                 </div>
               </div>
               <div className="space-y-2">
-                <label className="text-sm font-medium text-foreground/80">Event Type</label>
-                <select className="w-full px-4 py-3 rounded-xl bg-cream/50 border border-rosegold/20 focus:outline-none focus:border-rosegold focus:ring-1 focus:ring-rosegold transition-all">
+                <label htmlFor="eventType" className="text-sm font-medium text-foreground/80">Event Type</label>
+                <select id="eventType" className="w-full px-4 py-3 rounded-xl bg-cream/50 border border-rosegold/20 focus:outline-none focus:border-rosegold focus:ring-1 focus:ring-rosegold transition-all">
                   <option>Wedding</option>
                   <option>Pre-Wedding</option>
                   <option>Birthday</option>
@@ -48,8 +48,8 @@ export default function Contact() {
                 </select>
               </div>
               <div className="space-y-2">
-                <label className="text-sm font-medium text-foreground/80">Message</label>
-                <textarea rows={4} placeholder="Tell us about your event..." className="w-full px-4 py-3 rounded-xl bg-cream/50 border border-rosegold/20 focus:outline-none focus:border-rosegold focus:ring-1 focus:ring-rosegold transition-all resize-none"></textarea>
+                <label htmlFor="message" className="text-sm font-medium text-foreground/80">Message</label>
+                <textarea id="message" rows={4} placeholder="Tell us about your event..." className="w-full px-4 py-3 rounded-xl bg-cream/50 border border-rosegold/20 focus:outline-none focus:border-rosegold focus:ring-1 focus:ring-rosegold transition-all resize-none"></textarea>
               </div>
               <button
                 type="submit"
@@ -78,7 +78,7 @@ export default function Contact() {
                   <div>
                     <h4 className="font-medium text-foreground">Studio Location</h4>
                     <p className="text-foreground/70 text-sm mt-1 leading-relaxed">
-                      Hitex Road, Ramakrishnapur,<br/>Weaker Section Colony,<br/>Izzathnagar, Hyderabad,<br/>Telangana 500084
+                      KVR Kailash Height's, 2, behind SLV Amaravathi Grand Street,<br/>Ramavarapadu, Vijayawada,<br/>Kanuru, Andhra Pradesh 520004
                     </p>
                   </div>
                 </li>
@@ -88,7 +88,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-medium text-foreground">Phone Number</h4>
-                    <p className="text-foreground/70 text-sm mt-1">08367262022</p>
+                    <p className="text-foreground/70 text-sm mt-1">99399 04488</p>
                   </div>
                 </li>
                 <li className="flex gap-4">
@@ -97,7 +97,7 @@ export default function Contact() {
                   </div>
                   <div className="flex flex-col items-start">
                     <h4 className="font-medium text-foreground">WhatsApp</h4>
-                    <a href="https://wa.me/918367262022" target="_blank" rel="noopener noreferrer" className="text-sm mt-1 text-[#25D366] font-medium hover:underline">Chat with us instantly</a>
+                    <a href="https://wa.me/919939904488" target="_blank" rel="noopener noreferrer" className="text-sm mt-1 text-[#25D366] font-medium hover:underline">Chat with us instantly</a>
                   </div>
                 </li>
               </ul>
@@ -105,7 +105,7 @@ export default function Contact() {
 
             <div className="w-full h-64 bg-gray-200 rounded-3xl overflow-hidden shadow-sm">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15222.083893699742!2d78.3688172!3d17.4707011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93dc6ad325db%3A0xcda770a04ed55bb8!2sIzzathnagar%2C%20Kothaguda%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1709664580227!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15299.880537060592!2d80.6622432!3d16.4950338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35f0883db0cd01%3A0xe5393ac0b1db84c0!2sRamavarapadu%2C%20Vijayawada%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1709664580227!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

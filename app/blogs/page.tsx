@@ -5,11 +5,11 @@ import { Calendar, ArrowRight } from "lucide-react";
 
 export const dummyBlogs = [
   {
-    slug: "best-wedding-photography-tips",
-    title: "10 Best Wedding Photography Tips for Real Moments",
-    description: "Learn how to capture the raw emotions during your big day with these expert tips.",
+    slug: "best-newborn-photography-tips",
+    title: "10 Best Newborn Photography Tips for Real Moments",
+    description: "Learn how to capture the raw emotions during your baby's first days with these expert tips.",
     date: "March 15, 2026",
-    image: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?q=80&w=800&auto=format&fit=crop",
     content: "Content goes here...",
   },
   {

@@ -8,7 +8,7 @@ const testimonials = [
     id: 1,
     name: "Ayesha Rahman",
     role: "Bride",
-    content: "Making Memories captured our wedding exceptionally well. Their team was professional, friendly, and made us feel so comfortable. The photos look straight out of a fairy tale!",
+    content: "Bezawada Kids Studio captured our child's moments exceptionally well. Their team was professional, friendly, and made us feel so comfortable. The photos look straight out of a fairy tale!",
     rating: 5,
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
   },
@@ -89,8 +89,8 @@ export default function Testimonials() {
                 </div>
                 
                 <div className="flex gap-1 mb-6 justify-center">
-                  {[...Array(testimonials[current].rating)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+                  {Array.from({ length: testimonials[current].rating }).map((_, i) => (
+                    <Star key={testimonials[current].id + "-star-" + i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
                   ))}
                 </div>
 
@@ -107,9 +107,9 @@ export default function Testimonials() {
           </div>
           
           <div className="flex justify-center mt-8 gap-2">
-            {testimonials.map((_, idx) => (
+            {testimonials.map((testimonial, idx) => (
               <button
-                key={idx}
+                key={testimonial.id}
                 onClick={() => setCurrent(idx)}
                 className={`w-3 h-3 rounded-full transition-all duration-300 ${
                   current === idx ? "bg-rosegold w-8" : "bg-rosegold/30"

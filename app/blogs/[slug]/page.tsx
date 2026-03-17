@@ -43,7 +43,7 @@ export default function BlogDetail({ params }: { params: { slug: string } }) {
             Photography is not just about having a decent camera; it's about anticipating the moment before it happens. Whether you are preparing for a wedding or a special studio portrait, the light, timing, and preparation play massive roles.
           </p>
           <p className="mt-6">
-            In our experience at Making Memories Photo Studio, clients who feel relaxed often yield the best photographs. Ensure you get plenty of rest before shooting day. Drink water, be yourself, and let us handle all technical nuances.
+            In our experience at Bezawada Kids Studio, clients who feel relaxed often yield the best photographs. Ensure you get plenty of rest before shooting day. Drink water, be yourself, and let us handle all technical nuances.
           </p>
           <div className="my-10 p-8 bg-cream border-l-4 border-rosegold rounded-r-2xl">
             <p className="italic text-xl font-serif">

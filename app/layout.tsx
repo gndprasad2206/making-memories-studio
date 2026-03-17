@@ -17,8 +17,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Making Memories Photo Studio",
-  description: "Turning Your Special Moments Into Beautiful Memories with professional photography and video coverage in Hyderabad.",
+  title: "Bezawada Kids Studio",
+  description: "Capturing the magic and wonder of childhood with professional kids photography in Vijayawada.",
 };
 
 export default function RootLayout({
