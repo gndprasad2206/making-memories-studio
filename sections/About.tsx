@@ -53,7 +53,7 @@ export default function About() {
             >
               <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?q=80&w=600&auto=format&fit=crop" alt="Kids photoshoot" className="rounded-3xl shadow-lg w-full h-56 md:h-80 object-cover" />
               <div className="bg-cream rounded-3xl shadow-sm p-6 flex flex-col justify-center border border-rosegold/10 text-center items-center h-32 md:h-40">
-                <span className="text-3xl font-serif font-bold text-gradient">10+</span>
+                <span className="text-3xl font-serif font-bold text-gradient">15+</span>
                 <span className="text-foreground/80 font-medium text-sm mt-1">Years of<br/>Experience</span>
               </div>
             </motion.div>
@@ -72,12 +72,12 @@ export default function About() {
                 About Our Studio
               </span>
               <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground leading-tight mb-6">
-                Capturing Childhood's <br />
+                Capturing Your <br />
                 <span className="text-gradient">Purest Joy</span>
               </h2>
               <p className="text-lg text-foreground/80 leading-relaxed font-light">
-                Welcome to <strong>Bezawada Kids Studio</strong>, located in the heart of Vijayawada. We are passionate about framing the true essence of your child's joy. 
-                Our studio is a magical, child-friendly space filled with colorful props and toys, designed to capture their natural smiles.
+                Welcome to <strong>Rama Studio</strong>, located in the heart of Palakollu. We are passionate about framing the true essence of your joy. 
+                Our studio is a professional space designed to capture your most beautiful moments across all life events.
               </p>
             </div>
 

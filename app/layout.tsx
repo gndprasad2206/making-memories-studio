@@ -17,8 +17,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Bezawada Kids Studio",
-  description: "Capturing the magic and wonder of childhood with professional kids photography in Vijayawada.",
+  title: "Rama Studio",
+  description: "Capturing the magic and wonder of life's special moments with professional photography in Palakollu.",
 };
 
 export default function RootLayout({

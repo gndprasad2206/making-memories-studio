@@ -24,10 +24,10 @@ export default function Hero() {
             </span>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-foreground leading-[1.1] mb-6">
               Turning Your Special Moments Into <br className="hidden md:block" />
-              <span className="text-gradient">Childhood Magic</span>
+              <span className="text-gradient">Life's Magic</span>
             </h1>
             <p className="text-lg md:text-xl text-foreground/80 font-light max-w-2xl mx-auto leading-relaxed">
-              We capture your child's most precious moments with playful elegance. From tiny newborn toes to joyful birthday celebrations, our lenses tell their unique story.
+              We capture your most precious moments with elegance. From weddings and pre-weddings to joyful celebrations, our lenses tell your unique story.
             </p>
           </motion.div>
 
@@ -45,7 +45,7 @@ export default function Hero() {
               <ArrowRight className="w-5 h-5" />
             </Link>
             <Link
-              href="https://wa.me/919939904488"
+              href="https://wa.me/918814222560"
               target="_blank"
               className="px-8 py-3.5 w-full sm:w-auto bg-white text-rosegold border border-rosegold/30 rounded-full font-medium shadow-md hover:shadow-lg hover:border-rosegold transition-all transform hover:-translate-y-1 flex items-center justify-center gap-2"
             >

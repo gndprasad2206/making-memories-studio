@@ -8,7 +8,7 @@ const testimonials = [
     id: 1,
     name: "Ayesha Rahman",
     role: "Bride",
-    content: "Bezawada Kids Studio captured our child's moments exceptionally well. Their team was professional, friendly, and made us feel so comfortable. The photos look straight out of a fairy tale!",
+    content: "Rama Studio captured our family moments exceptionally well. Their team was professional, friendly, and made us feel so comfortable. The photos look straight out of a fairy tale!",
     rating: 5,
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
   },
