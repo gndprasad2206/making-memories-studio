@@ -17,8 +17,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Rama Studio",
-  description: "Capturing the magic and wonder of life's special moments with professional photography in Palakollu.",
+  title: "Sri Raj Photography",
+  description: "Capturing the magic and wonder of life's special moments with professional photography.",
 };
 
 export default function RootLayout({

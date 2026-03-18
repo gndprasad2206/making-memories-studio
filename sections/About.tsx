@@ -76,7 +76,7 @@ export default function About() {
                 <span className="text-gradient">Purest Joy</span>
               </h2>
               <p className="text-lg text-foreground/80 leading-relaxed font-light">
-                Welcome to <strong>Rama Studio</strong>, located in the heart of Palakollu. We are passionate about framing the true essence of your joy. 
+                Welcome to <strong>Sri Raj Photography</strong>, located in the heart of Palakollu. We are passionate about framing the true essence of your joy. 
                 Our studio is a professional space designed to capture your most beautiful moments across all life events.
               </p>
             </div>

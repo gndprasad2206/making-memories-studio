@@ -33,7 +33,7 @@ export default function Contact() {
                 </div>
                 <div className="space-y-2">
                   <label htmlFor="phoneNumber" className="text-sm font-medium text-foreground/80">Phone Number</label>
-                  <input id="phoneNumber" type="tel" placeholder="+91 88142 22560" className="w-full px-4 py-3 rounded-xl bg-cream/50 border border-rosegold/20 focus:outline-none focus:border-rosegold focus:ring-1 focus:ring-rosegold transition-all" />
+                  <input id="phoneNumber" type="tel" placeholder="+91 99122 49414" className="w-full px-4 py-3 rounded-xl bg-cream/50 border border-rosegold/20 focus:outline-none focus:border-rosegold focus:ring-1 focus:ring-rosegold transition-all" />
                 </div>
               </div>
               <div className="space-y-2">
@@ -88,7 +88,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-medium text-foreground">Phone Number</h4>
-                    <p className="text-foreground/70 text-sm mt-1">88142 22560</p>
+                    <p className="text-foreground/70 text-sm mt-1">99122 49414</p>
                   </div>
                 </li>
                 <li className="flex gap-4">
@@ -97,7 +97,7 @@ export default function Contact() {
                   </div>
                   <div className="flex flex-col items-start">
                     <h4 className="font-medium text-foreground">WhatsApp</h4>
-                    <a href="https://wa.me/918814222560" target="_blank" rel="noopener noreferrer" className="text-sm mt-1 text-[#25D366] font-medium hover:underline">Chat with us instantly</a>
+                    <a href="https://wa.me/919912249414" target="_blank" rel="noopener noreferrer" className="text-sm mt-1 text-[#25D366] font-medium hover:underline">Chat with us instantly</a>
                   </div>
                 </li>
               </ul>
@@ -105,7 +105,7 @@ export default function Contact() {
 
             <div className="w-full h-64 bg-gray-200 rounded-3xl overflow-hidden shadow-sm">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3500.0!2d81.72705209223348!3d16.517459955107856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1710759000000!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3500.0!2d81.9832000!3d16.5427000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1710759000001!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

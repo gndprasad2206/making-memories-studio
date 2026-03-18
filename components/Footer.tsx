@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="flex items-center gap-2">
             <Camera className="w-8 h-8 text-rosegold" />
             <span className="font-serif text-2xl font-bold tracking-wide">
-              Rama Studio
+              Sri Raj Photography
             </span>
           </div>
           <p className="text-foreground/80 leading-relaxed font-light mt-2 max-w-sm">
@@ -20,7 +20,7 @@ export default function Footer() {
             <Link href="https://instagram.com" className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-rosegold hover:bg-rosegold hover:text-white transition-all shadow-sm">
               <Instagram className="w-5 h-5" />
             </Link>
-            <Link href="https://wa.me/918814222560" className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-rosegold hover:bg-rosegold hover:text-white transition-all shadow-sm">
+            <Link href="https://wa.me/919912249414" className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-rosegold hover:bg-rosegold hover:text-white transition-all shadow-sm">
               <Phone className="w-5 h-5" />
             </Link>
           </div>
@@ -57,18 +57,18 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-3">
               <Phone className="w-5 h-5 text-rosegold shrink-0" />
-              <span>88142 22560</span>
+              <span>99122 49414</span>
             </li>
             <li className="flex items-center gap-3">
               <Mail className="w-5 h-5 text-rosegold shrink-0" />
-              <span>hello@ramastudio.com</span>
+              <span>hello@srirajphotography.com</span>
             </li>
           </ul>
         </div>
       </div>
       
       <div className="text-center pt-8 border-t border-rosegold/10 text-foreground/60 text-sm font-light">
-        <p>&copy; {new Date().getFullYear()} Rama Studio. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Sri Raj Photography. All rights reserved.</p>
       </div>
     </footer>
   );

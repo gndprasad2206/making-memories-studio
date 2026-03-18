@@ -36,7 +36,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-2">
           <Camera className="w-8 h-8 text-rosegold" />
           <span className="font-serif text-2xl font-bold tracking-wide">
-            Rama Studio
+            Sri Raj Photography
           </span>
         </Link>
 
@@ -56,12 +56,12 @@ export default function Navbar() {
         {/* Actions Desktop */}
         <div className="hidden md:flex items-center gap-4">
           <Link
-            href="https://wa.me/918814222560"
+            href="https://wa.me/919912249414"
             target="_blank"
             className="flex items-center gap-2 text-rosegold font-medium hover:text-rosegold-light transition-colors"
           >
             <Phone className="w-5 h-5" />
-            88142 22560
+            99122 49414
           </Link>
           <Link
             href="/#contact"
